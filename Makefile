@@ -1,7 +1,7 @@
 CC=gcc
 CXX=g++
 CFLAGS=-g -O2
-CXXFLAGS=-std=c++17
+CXXFLAGS=-std=c++14
 LDFLAGS=
 LIBS=-lfuse3 -lPocoNet -lPocoNetSSL -lPocoFoundation -lPocoUtil
 

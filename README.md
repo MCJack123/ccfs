@@ -2,6 +2,8 @@
 FUSE filesystem for ComputerCraft using the [CraftOS-PC raw mode protocol](https://www.craftos-pc.cc/docs/rawmode) over WebSockets.
 
 ## Compiling
+Requires Poco and libfuse, with a C++14 compliant compiler.
+
 `make` should do the trick on Linux systems. Some tweaking may be necessary for some systems (e.g. changing GCC to Clang).
 
 ## Usage
